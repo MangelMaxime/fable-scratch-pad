@@ -1,0 +1,15 @@
+{
+    "name": "fable-scratch-pad",
+    "private": "true",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "watch": "dotnet fable src/Client.fsproj --outDir dist --run vite"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "vite": "^2.7.13"
+    }
+}
