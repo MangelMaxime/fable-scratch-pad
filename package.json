@@ -5,7 +5,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "watch": "dotnet fable src/Client.fsproj --outDir dist --run vite"
+        "watch": "dotnet fable src/Client.fsproj --outDir dist --watch --run vite"
     },
     "author": "",
     "license": "ISC",
